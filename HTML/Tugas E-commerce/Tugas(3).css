@@ -1,0 +1,79 @@
+body {
+  background-image: url("Images/XIXI.jpg");
+  background-size: cover;
+}
+/* Section Cover */
+h1 {
+  text-align: center;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "valorant";
+  src: url("valorant/valorant bold.ttf");
+  font-family: "valorant";
+  font-size: 60px;
+}
+.title {
+  font-family: "valorant";
+  src: url("valorant/valorant bold.ttf");
+  font-family: "valorant";
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+#Bestseller {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+#ROG {
+  padding: 5px;
+  font-family: "valorant";
+  text-align: center;
+  color: white;
+}
+.tengah {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.items {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 80px 80px 80px;
+  text-align: center;
+}
+h3,
+p {
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #000000;
+}
+.Table {
+  color: #dddddd;
+  text-align: center;
+}
+#Where {
+  font-family: "valorant";
+  color: white;
+  text-align: center;
+}

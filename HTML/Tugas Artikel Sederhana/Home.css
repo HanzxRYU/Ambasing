@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  text-align: center;
+}
+article {
+  margin: 20px;
+  font-size: larger;
+}
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.author {
+  font-size: 11px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+body{
+  background-color:#EAEAEA;
+}
+
+.H1{
+  font-family: 'valorant';
+  text-align: center;
+}
+
+
+
+
