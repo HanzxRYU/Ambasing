@@ -1,17 +1,3 @@
-body {
-  background-image: url("Images/XIXI.jpg");
-  background-size: cover;
-}
-/* Section Cover */
-h1 {
-  text-align: center;
-  padding: 15px;
-  color: rgb(255, 255, 255);
-  font-family: "valorant";
-  src: url("valorant/valorant bold.ttf");
-  font-family: "valorant";
-  font-size: 60px;
-}
 .title {
   font-family: "valorant";
   src: url("valorant/valorant bold.ttf");
@@ -76,4 +62,62 @@ tr:nth-child(even) {
   font-family: "valorant";
   color: white;
   text-align: center;
+}
+
+body {
+  background-image: url("Images/XIXI.jpg");
+  background-size: cover;
+}
+
+/* Section Cover */
+h1 {
+  text-align: center;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "valorant";
+  src: url("valorant/valorant bold.ttf");
+  font-family: "valorant";
+  font-size: 60px;
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .items {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+  }
+
+  .item {
+    margin: 10px;
+    width: 70%;
+    height: 90%;
+    justify-content: center;
+    margin-left: 45px;
+  }
+
+  table,
+  th,
+  td {
+    width: 100%;
+  }
+  .IMG {
+    width: 140px;
+    height: 110px;
+  }
+  #Omen{
+    width: 140px;
+    height: 110px;
+  
+  }
+  #Omencard{
+    width: 180px;
+    height: 199px;
+    margin-left: 68%;
+  }
 }
