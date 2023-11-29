@@ -4,6 +4,8 @@
   font-family: "valorant";
   text-align: center;
   color: rgb(255, 255, 255);
+  animation-delay: 1000000s;
+  animation: 5s infinite;
 }
 #Bestseller {
   padding: 5px;
@@ -41,7 +43,8 @@ p {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  /* width: 100%; */
+  text-align: center;
 }
 
 td,
@@ -57,6 +60,7 @@ tr:nth-child(even) {
 .Table {
   color: #dddddd;
   text-align: center;
+  width: 100%;
 }
 #Where {
   font-family: "valorant";
@@ -90,15 +94,16 @@ h1 {
     flex-direction: column;
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 50px;
+    margin-right: 4%;
   }
 
   .item {
     margin: 10px;
-    width: 70%;
-    height: 90%;
+    width: 98%;
+    height: 95%;
     justify-content: center;
-    margin-left: 45px;
+    /* margin-right: 5px; */
+    /* display: grid; */
   }
 
   table,
@@ -110,14 +115,23 @@ h1 {
     width: 140px;
     height: 110px;
   }
-  #Omen{
+  #Omen {
     width: 140px;
     height: 110px;
-  
   }
-  #Omencard{
-    width: 180px;
-    height: 199px;
-    margin-left: 68%;
+  #Omencard {
+    width: 98%;
+    height: 90%;
+    margin-left: 50%;
+    margin: 10px;
+    justify-content: center;
+  }
+  .Hero {
+    width: 70%;
+    height: 70%;
+  }
+  .Table {
+    width: 100px;
+    font-size: 14px;
   }
 }
