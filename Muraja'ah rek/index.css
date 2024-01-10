@@ -1,0 +1,70 @@
+@media screen and (min-width: 320px) {
+  body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    background-color: black;
+    margin: 20px;
+  }
+  #card {
+  width: auto;
+  margin: 2px;
+  color: rgb(0, 0, 0);
+  background-color: azure;
+  padding: 25px;
+  border-radius: 10px;
+
+  }
+  header{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    margin: 0px;
+  }
+  h2{
+    padding: 5px;
+    border-top: 3px solid black;
+  }
+ img{
+    width: 225px;
+    height:auto
+ }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+      background-color: black;
+      margin: 50px;
+    }
+    #card {
+    width: auto;
+    margin: 2px;
+    color: rgb(0, 0, 0);
+    background-color: azure;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: x-large;
+    }
+    header{
+      margin-top: 50px;
+      text-align: center;
+      font-size: 18px;
+      color: aliceblue;
+      margin: 0px;
+    }
+    h2{
+      padding: 25px;
+      border-top: 3px solid black;
+      
+    }
+    img{
+        width: 580px;
+        height:auto;
+    }
+  }
+  
+  
