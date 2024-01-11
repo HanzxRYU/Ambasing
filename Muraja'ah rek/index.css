@@ -24,6 +24,7 @@
   }
   h2{
     padding: 5px;
+    /* padding buat area kosong diantara h2 */
     border-top: 3px solid black;
   }
  img{
@@ -48,6 +49,7 @@
     padding: 25px;
     border-radius: 10px;
     font-size: x-large;
+    /* bagian card */
     }
     header{
       margin-top: 50px;
@@ -55,6 +57,7 @@
       font-size: 18px;
       color: aliceblue;
       margin: 0px;
+      /* bagian atas */
     }
     h2{
       padding: 25px;
